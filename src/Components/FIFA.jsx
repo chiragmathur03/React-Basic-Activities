@@ -31,14 +31,14 @@ const FIFA = () => {
                 <ul className="dropdown-menu">
                     <h6 className="dropdown-header">10 July - Saint Petersburg</h6>
                     <li onClick={firstWinner}>
-                        <li><a className="dropdown-item">France</a></li>
-                        <li><a className="dropdown-item" value="option2">Belgium</a></li>
+                        <li><span className="dropdown-item">France</span></li>
+                        <li><span className="dropdown-item" value="option2">Belgium</span></li>
                     </li>
                     <li><hr className="dropdown-divider"/></li>
                     <h6 className="dropdown-header">11 July – Moscow (Luzhniki)</h6>
                     <li onClick={secondWinner}>
-                        <li><a className="dropdown-item" value="option3">Croatia</a></li>
-                        <li><a className="dropdown-item" value="option4">England</a></li>
+                        <li><span className="dropdown-item" value="option3">Croatia</span></li>
+                        <li><span className="dropdown-item" value="option4">England</span></li>
                     </li>
                 </ul>
             </div>
